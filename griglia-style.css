@@ -5,6 +5,18 @@
     padding: 0;
     margin: 0;
 }
+
+/******colors******/
+
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-grey{
+    background-color: rgb(133, 97, 97);
+}
+
+
+
 /*******flex*******/
 .flex{
     display: flex;
@@ -14,14 +26,17 @@
 }
 
 .row{
-    min-height: 200px;
+    
     background-color: rgb(82, 45, 45);
 }
-
+.cell{
+    background-color:rgb(75, 75, 211);
+}
 div[class ^= "col"]{ 
-    height:100px;
-    background-color:red;
+    
+    height: 90%;
     border: 1px solid black;
+    padding: 20px;
     
 }
 
@@ -36,40 +51,40 @@ div[class ^= "col"]{
 
 /*************griglia style*******************/
 
-.row.flex > .col-width-12{
+.flex > .col-width-12{
     width: 100%;
 }
-.row.flex > .col-width-11{
+.flex > .col-width-11{
     width: calc(100%/12 * 11);
 }
-.row.flex > .col-width-10{
+.flex > .col-width-10{
     width: calc(100%/12 * 10);
 }
-.row.flex > .col-width-9{
+.flex > .col-width-9{
     width: calc(100%/12 * 9);
 }
-.row.flex > .col-width-8{
+.flex > .col-width-8{
     width: calc(100%/12 * 8);
 }
-.row.flex > .col-width-7{
+.flex > .col-width-7{
     width: calc(100%/12 * 7);
 }
-.row.flex > .col-width-6{
+.flex > .col-width-6{
     width: calc(100%/12 * 6);
 }
-.row.flex > .col-width-5{
+.flex > .col-width-5{
     width: calc(100%/12 * 5);
 }
-.row.flex > .col-width-4{
+.flex > .col-width-4{
     width: calc(100%/12 * 4);
 }
-.row.flex > .col-width-3{
+.flex > .col-width-3{
     width: calc(100%/12 * 3);
 }
-.row.flex > .col-width-2{
+.flex > .col-width-2{
     width: calc(100%/12 * 2);
 }
-.row.flex > .col-width-1{
+.flex > .col-width-1{
     width: calc(100%/12);
 }
 
