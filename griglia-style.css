@@ -1,0 +1,78 @@
+/*reset css*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*******flex*******/
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.row{
+    min-height: 200px;
+    background-color: rgb(82, 45, 45);
+}
+
+div[class ^= "col"]{ 
+    height:100px;
+    background-color:red;
+    border: 1px solid black;
+    
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*************griglia style*******************/
+
+.row.flex > .col-width-12{
+    width: 100%;
+}
+.row.flex > .col-width-11{
+    width: calc(100%/12 * 11);
+}
+.row.flex > .col-width-10{
+    width: calc(100%/12 * 10);
+}
+.row.flex > .col-width-9{
+    width: calc(100%/12 * 9);
+}
+.row.flex > .col-width-8{
+    width: calc(100%/12 * 8);
+}
+.row.flex > .col-width-7{
+    width: calc(100%/12 * 7);
+}
+.row.flex > .col-width-6{
+    width: calc(100%/12 * 6);
+}
+.row.flex > .col-width-5{
+    width: calc(100%/12 * 5);
+}
+.row.flex > .col-width-4{
+    width: calc(100%/12 * 4);
+}
+.row.flex > .col-width-3{
+    width: calc(100%/12 * 3);
+}
+.row.flex > .col-width-2{
+    width: calc(100%/12 * 2);
+}
+.row.flex > .col-width-1{
+    width: calc(100%/12);
+}
+
+
+
+/**********OFFSET**********/
