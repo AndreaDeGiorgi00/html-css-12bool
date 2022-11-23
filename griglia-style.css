@@ -27,7 +27,7 @@
 
 .row{
     
-    background-color: rgb(82, 45, 45);
+    background-color: #006CFA;
 }
 .cell{
     background-color:rgb(75, 75, 211);
@@ -35,7 +35,7 @@
 div[class ^= "col"]{ 
     
     height: 90%;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 20px;
     
 }
@@ -49,7 +49,46 @@ div[class ^= "col"]{
 
 
 
+
+
+/**********OFFSET**********/
+.flex > .offset-width-11{
+    margin-left: calc(100%/12 * 11);
+}
+.flex > .offset-width-10{
+    margin-left: calc(100%/12 * 10);
+}
+.flex > .offset-width-9{
+    margin-left: calc(100%/12 * 9);
+}
+.flex > .offset-width-8{
+    margin-left: calc(100%/12 * 8);
+}
+.flex > .offset-width-7{
+    margin-left: calc(100%/12 * 7);
+}
+.flex > .offset-width-6{
+    margin-left: calc(100%/12 * 6);
+}
+.flex > .offset-width-5{
+    margin-left: calc(100%/12 * 5);
+}
+.flex > .offset-width-4{
+    margin-left: calc(100%/12 * 4);
+}
+.flex > .offset-width-3{
+    margin-left: calc(100%/12 * 3);
+}
+.flex > .offset-width-2{
+    margin-left: calc(100%/12 * 2);
+}
+.flex > .offset-width-1{
+    margin-left: calc(100%/12);
+}
+
 /*************griglia style*******************/
+
+
 
 .flex > .col-width-12{
     width: 100%;
@@ -87,7 +126,3 @@ div[class ^= "col"]{
 .flex > .col-width-1{
     width: calc(100%/12);
 }
-
-
-
-/**********OFFSET**********/
